@@ -11,7 +11,7 @@ function encrypt() {
      
       var b64=btoa(a);
         var unicode=atob(b64) ;
-      list.innerHTML = `${b64}<span>${unicode}</span>`;
+      list.innerHTML = `${b64}<span>${a}</span>`;
       
        button.innerHTML = "delete";
        button.style = "margin:15px;color: white;border: none;outline:none;text-transform: uppercase;padding: 10px;background:#448AFF;";
