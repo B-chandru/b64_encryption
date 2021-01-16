@@ -22,6 +22,8 @@ function encrypt() {
   
       number.appendChild(list);
       list.appendChild(button);
+         
+     document.getElementById("text").value="";
 
   
       button.addEventListener("click", function () {
